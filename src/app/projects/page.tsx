@@ -5,7 +5,7 @@ import ProjectItem from './../../components/ProjectItem';
 
 export default function ProjectsPage() {
     return (
-        <section id="projects" className="min-h-screen px-8 pt-40 pb-20">
+        <section id="projects" className="min-h-screen px-8 pt-40 pb-20 start-nav">
             <div className="container m-auto">
                 <motion.h1
                     className='text-7xl font-medium mb-9 text-center'
@@ -45,6 +45,7 @@ export default function ProjectsPage() {
                         description="An e-commerce platform for bird's nest products. I developed the full frontend with Laravel backend integration."
                         imageSrc="/images/projects/shandon/summary.png"
                         techStack={['Laravel', 'jQuery', 'SCSS', 'MySQL', 'SCart']}
+                        alias="shandon-birdnest"
                     />
 
                     <ProjectItem
@@ -52,6 +53,7 @@ export default function ProjectsPage() {
                         description="An warehouse management system."
                         imageSrc="/images/projects/shandon/summary.png"
                         techStack={['Laravel', 'jQuery', 'SCSS', 'MySQL']}
+                        alias="pingu"
                     />
 
                     <ProjectItem
@@ -59,6 +61,7 @@ export default function ProjectsPage() {
                         description="One pager"
                         imageSrc="/images/projects/rits/summary.png"
                         techStack={['Laravel', 'jQuery', 'SCSS', 'MySQL']}
+                        alias="rits"
                     />
                 </motion.div>
             </div>

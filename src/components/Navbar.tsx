@@ -1,8 +1,10 @@
 'use client'; // Only needed if this is in App Router
 
+import { ReactNode, useEffect } from 'react';
 import { usePathname } from 'next/navigation';
 import Link, { LinkProps } from 'next/link';
-import { ReactNode } from 'react';
+import gsap from 'gsap';
+import { ScrollTrigger } from 'gsap/ScrollTrigger';
 
 interface ActiveLinkProps extends LinkProps {
   exact?: boolean;
@@ -32,9 +34,23 @@ const ActiveLink = ({
   );
 };
 
-export default function Navbar() {
+gsap.registerPlugin(ScrollTrigger);
+
+const Navbar = () => {
+  useEffect(() => {
+    ScrollTrigger.create({
+      trigger: "body",
+      start: "100px top",
+      toggleClass: {
+        targets: "#header .navbar",
+        className: "background-nav"
+      },
+      markers: false
+    });
+  }, []);
+
   return (
-    <nav id="header" className="flex justify-center items-center px-6 py-4 absolute left-1/2 transform -translate-x-1/2" >
+    <nav id="header" className="flex justify-center items-center px-6 py-4 fixed left-1/2 transform -translate-x-1/2 z-100" >
       <div className="navbar space-x-10">
         <ActiveLink href="/" className='nav-link' exact>Home</ActiveLink>
         <ActiveLink href="/projects" className='nav-link' >Projects</ActiveLink>
@@ -44,3 +60,5 @@ export default function Navbar() {
     </nav>
   );
 }
+
+export default Navbar;

@@ -8,11 +8,13 @@ interface ProjectItemProps {
     description: string;
     imageSrc: string;
     techStack?: string[];
+    alias: string;
 }
 
-export default function ProjectItem({ title, description, imageSrc, techStack }: ProjectItemProps) {
+export default function ProjectItem({ title, description, imageSrc, techStack, alias }: ProjectItemProps) {
     return (
-        <motion.div
+        <motion.a
+            href={`/projects/${alias}`}
             className='p-8 project-item group rounded-2xl hover:shadow-lg transition relative overflow-hidden'
             whileHover={{ scale: 1.01 }}
             transition={{
@@ -28,7 +30,7 @@ export default function ProjectItem({ title, description, imageSrc, techStack }:
                     {techStack.map((tech, index) => (
                         <span
                             key={index}
-                            className="bg-[#f0f8fe] px-2 py-1 rounded text-sm"
+                            className="bg-[#f0f8fe] px-2 py-1 rounded-xl text-sm"
                         >
                             {tech}
                         </span>
@@ -36,7 +38,7 @@ export default function ProjectItem({ title, description, imageSrc, techStack }:
                 </div>
             )}
 
-            <div className="img-wrapper transition-transform duration-500 ease-in-out group-hover:-translate-y-2" >
+            <div className="img-wrapper transition-transform duration-500 ease-in-out group-hover:translate-y-2" >
                 <Image
                     src={imageSrc}
                     alt={title}
@@ -45,6 +47,6 @@ export default function ProjectItem({ title, description, imageSrc, techStack }:
                     className="rounded-xl"
                 />
             </div>
-        </motion.div>
+        </motion.a>
     );
 }
