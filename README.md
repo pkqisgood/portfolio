@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
 ## Getting Started
@@ -65,3 +66,6 @@ my-portfolio/
 │     └─ global.scss      ← optional scss styles
 ├─ public/
 │  └─ images/             ← static assets like profile pic, etc
+=======
+# portfolio
+>>>>>>> dcfd945a80c0bc0cdc42636d1517bd8d9f74b463
