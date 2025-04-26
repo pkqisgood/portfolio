@@ -1,0 +1,18 @@
+#header {
+    .navbar {
+        border-radius: 50px;
+        padding: 20px 40px;
+        background: hsla(45, 17%, 95%, .8);
+        backdrop-filter: blur(20px) saturate(1.7);
+
+        .nav-link {
+            font-family: var(--body-font);
+            padding: 10px 20px;
+            
+            &.active {
+                background-color: #f0f8feff;
+                border-radius: 50px;
+            }
+        }
+    }
+}
