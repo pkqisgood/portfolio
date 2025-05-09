@@ -11,8 +11,19 @@ export default function HomePage() {
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.8 }}
       >
-        Hi, I&apos;m Pang Kai Qing
-        <span className='absolute'>👋</span>
+        Hi, I&apos;m <br className='md:hidden'/>Pang Kai Qing
+
+        <motion.span
+          className="absolute hidden md:inline-block"
+          initial={{ opacity: 0, scale: 0 }}
+          animate={{ opacity: 1, scale: 1 }}
+          transition={{
+            duration: 0.4,
+            scale: { type: "spring", visualDuration: 0.4, bounce: 0.5 },
+          }}
+        >
+          👋
+        </motion.span>
         <br />
       </motion.h1>
 

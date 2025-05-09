@@ -14,9 +14,9 @@ interface ProjectLayoutProps {
 
 export default function ProjectLayout({ title, year, role, techStack, link, children }: ProjectLayoutProps) {
     return (
-        <div className="project-main container m-auto min-h-screen px-8 pt-60 pb-20 start-nav">
+        <div className="project-main container m-auto min-h-screen px-8 pt-40 md:pt-50 pb-20 start-nav">
             <motion.h1
-                className="project-title text-9xl mb-20 text-center font-bold"
+                className="project-title text-5xl md:text-7xl lg:text-8xl xl:text-9xl mb-14 md:mb-20 text-center font-bold"
             >
                 {title}
             </motion.h1>
@@ -28,36 +28,38 @@ export default function ProjectLayout({ title, year, role, techStack, link, chil
                         className="bouncy-element rounded-full flex w-fit m-auto live-link mb-4"
                         target="_blank"
                         href={link}
+                        style={{ transformOrigin: "center" }}
                         animate={{
-                            y: [0, -10, 0],
+                            rotate: [0, -6, 6, -6, 6, 0], // Left-right-left-right-center
                         }}
                         transition={{
-                            duration: 0.6,
+                            times: [0, 0.2, 0.4, 0.6, 0.8, 1],
+                            duration: 1,
                             repeat: Infinity,
-                            repeatType: "loop",
-                            ease: "easeInOut",
+                            repeatDelay: 0.5,
+                            ease: "easeInOut"
                         }}
                     >
                         🔗 Live link
                     </motion.a>
                 )}
-                <div className="flex justify-center gap-10 m-auto">
-                    <div className="p-4">
-                        <h3 className="text-title">Year</h3>
-                        <p className="description">{year}</p>
+                <div className="flex sm:justify-center gap-6 xxl:gap-10 m-auto flex-wrap sm:flex-nowrap">
+                    <div className="p-2 md:p-4">
+                        <h3 className="text-title p1">Year</h3>
+                        <p className="description p1">{year}</p>
                     </div>
-                    <div className="p-4">
-                        <h3 className="text-title">Role</h3>
-                        <p className="description">{role}</p>
+                    <div className="p-2 md:p-4">
+                        <h3 className="text-title p1">Role</h3>
+                        <p className="description p1">{role}</p>
                     </div>
-                    <div className="p-4">
-                        <h3 className="text-title">Tech</h3>
+                    <div className="p-2 md:p-4">
+                        <h3 className="text-title p1">Tech</h3>
                         {techStack && (
                             <div className="flex flex-wrap gap-2 mb-4 tech-wrapper">
                                 {techStack.map((tech, index) => (
                                     <span
                                         key={index}
-                                        className="px-2 py-1 rounded-full body-font description tech-item"
+                                        className="px-2 py-1 rounded-full body-font description p1 tech-item"
                                     >
                                         {tech}
                                     </span>
