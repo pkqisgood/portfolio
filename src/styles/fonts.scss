@@ -55,3 +55,13 @@
   font-weight: 400;
   font-style: normal;
 }
+
+.p1 {
+  font-size: 18px;
+  line-height: calc(1.75 / 1.125);
+
+  @media (max-width: 767px) {
+    font-size: 16px;
+    line-height: calc(1.5 / 1);
+  }
+}

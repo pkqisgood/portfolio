@@ -1,0 +1,46 @@
+.project-main {
+    .details-info {
+        .live-link {
+            padding: 8px 20px 5px 12px;
+            background: hsla(45, 17%, 95%, 0.8);
+            backdrop-filter: blur(20px) saturate(1.7);
+        }
+
+        .text-title {
+            font-family: var(--body-font);
+            margin-bottom: 14px;
+
+            @media (max-width: 767px) {
+                margin-bottom: 8px;
+            }
+        }
+
+        // .description {
+        //     font-size: 18px;
+
+        //     @media (max-width: 767px) {
+        //         font-size: 16px;
+        //     }
+        // }
+
+        .tech-wrapper {
+            .tech-item {
+                &:nth-child(4n+1) {
+                    background-color: var(--pink); //FED3E2
+                }
+
+                &:nth-child(4n+2) {
+                    background-color: var(--yellow);
+                }
+
+                &:nth-child(4n+3) {
+                    background-color: var(--blue);
+                }
+
+                &:nth-child(4n+4) {
+                    background-color: var(--green);
+                }
+            }
+        }
+    }
+}
