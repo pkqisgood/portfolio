@@ -5,15 +5,15 @@ import ProjectItem from './../../components/ProjectItem';
 
 export default function ProjectsPage() {
     return (
-        <section id="projects" className="min-h-screen px-8 pt-40 pb-20 start-nav">
+        <section id="projects" className="min-h-screen px-8 pt-50 pb-20 start-nav">
             <div className="container m-auto">
                 <motion.h1
-                    className='text-7xl font-medium mb-9 text-center'
+                    className='text-6xl md:text-7xl lg:text-8xl xl:text-9xl font-medium mb-20 text-center'
                     initial={{ opacity: 0, y: 40 }}
                     animate={{ opacity: 1, y: 0 }}
                     transition={{ duration: 0.8 }}
                 >
-                    Projects&nbsp;
+                    Projects.&nbsp;
                     <motion.span
                         className="absolute"
                         initial={{ opacity: 0, scale: 0 }}
@@ -60,6 +60,46 @@ export default function ProjectsPage() {
                         title="Rits Website"
                         description="One pager"
                         imageSrc="/images/projects/rits/summary.png"
+                        techStack={['Laravel', 'jQuery', 'SCSS', 'MySQL']}
+                        alias="rits"
+                    />
+
+                    <ProjectItem
+                        title="Upstage - Interior Design"
+                        description="One pager"
+                        imageSrc="/images/projects/upstage/id-summary.png"
+                        techStack={['Laravel', 'jQuery', 'SCSS', 'MySQL']}
+                        alias="rits"
+                    />
+
+                    <ProjectItem
+                        title="Upstage - Expo"
+                        description="One pager"
+                        imageSrc="/images/projects/upstage/expo-summary.png"
+                        techStack={['Laravel', 'jQuery', 'SCSS', 'MySQL']}
+                        alias="rits"
+                    />
+
+                    <ProjectItem
+                        title="Azeo"
+                        description="One pager"
+                        imageSrc="/images/projects/azeo/summary.png"
+                        techStack={['Laravel', 'jQuery', 'SCSS', 'MySQL']}
+                        alias="rits"
+                    />
+
+                    <ProjectItem
+                        title="Hellosmile"
+                        description="One pager"
+                        imageSrc="/images/projects/rits/summary.png"
+                        techStack={['Laravel', 'jQuery', 'SCSS', 'MySQL']}
+                        alias="rits"
+                    />
+
+                    <ProjectItem
+                        title="Dcoeur"
+                        description="One pager"
+                        imageSrc="/images/projects/dcoeur/summary.png"
                         techStack={['Laravel', 'jQuery', 'SCSS', 'MySQL']}
                         alias="rits"
                     />

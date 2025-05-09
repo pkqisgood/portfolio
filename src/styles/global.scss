@@ -3,12 +3,17 @@
 @import "header.scss";
 @import "home.scss";
 @import "projects.scss";
+@import "project-details.scss";
 
 :root {
   --font-custom: "Acorn", sans-serif;
   --body-font: "gt";
   --background-color: #fffae8; //#FFF9EE
   --primary-color: #0000d6; //#0100C7
+  --pink: #FFDEDE; //#FED3E2 FED0E2
+  --yellow: #ffec6f;
+  --blue: #f0f8fe;
+  --green: #DDEB9D;
 }
 
 body {
@@ -17,7 +22,7 @@ body {
   color: var(--primary-color);
   height: 100vh;
 
-  p {
+  p, .body-font {
     font-family: var(--body-font);
   }
 

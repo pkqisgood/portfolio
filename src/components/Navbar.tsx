@@ -40,10 +40,12 @@ const Navbar = () => {
   useEffect(() => {
     ScrollTrigger.create({
       trigger: "body",
-      start: "100px top",
-      toggleClass: {
-        targets: "#header .navbar",
-        className: "background-nav"
+      start: "60px top",
+      onEnter: () => {
+        document.querySelector("#header .navbar")?.classList.add("background-nav");
+      },
+      onLeaveBack: () => {
+        document.querySelector("#header .navbar")?.classList.remove("background-nav");
       },
       markers: false
     });
@@ -51,7 +53,7 @@ const Navbar = () => {
 
   return (
     <nav id="header" className="flex justify-center items-center px-6 py-4 fixed left-1/2 transform -translate-x-1/2 z-100" >
-      <div className="navbar space-x-10">
+      <div className="navbar space-x-0 md:space-x-8 lg:space-x-10">
         <ActiveLink href="/" className='nav-link' exact>Home</ActiveLink>
         <ActiveLink href="/projects" className='nav-link' >Projects</ActiveLink>
         <ActiveLink href="/about" className='nav-link' >About</ActiveLink>
