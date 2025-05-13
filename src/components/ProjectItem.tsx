@@ -27,7 +27,7 @@ export default function ProjectItem({ title, description, imageSrc, techStack, a
         >
             <div>
                 <h2 className="text-2xl font-semibold mb-2">{title}</h2>
-                <p className="text-gray-600 dark:text-gray-400 mb-4">{description}</p>
+                <p className="text-(--secondary-color) mb-4">{description}</p>
 
                 {techStack && (
                     <div className="flex flex-wrap gap-2 mb-4">

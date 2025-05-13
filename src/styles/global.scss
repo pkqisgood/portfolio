@@ -4,6 +4,7 @@
 @import "home.scss";
 @import "projects.scss";
 @import "project-details.scss";
+@import "about.scss";
 
 :root {
   --font-custom: "Acorn", sans-serif;
@@ -14,6 +15,8 @@
   --yellow: #ffec6f;
   --blue: #f0f8fe;
   --green: #DDEB9D;
+  --secondary-color: #6A606E;
+  --secondary-variant-color: #6A706E;
 }
 
 body {

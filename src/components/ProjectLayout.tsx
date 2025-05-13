@@ -43,7 +43,7 @@ export default function ProjectLayout({ title, year, role, techStack, link, chil
                         🔗 Live link
                     </motion.a>
                 )}
-                <div className="flex sm:justify-center gap-6 xxl:gap-10 m-auto flex-wrap sm:flex-nowrap">
+                <div className="flex sm:justify-center gap-2 xxl:gap-10 m-auto flex-wrap sm:flex-nowrap">
                     <div className="p-2 md:p-4">
                         <h3 className="text-title p1">Year</h3>
                         <p className="description p1">{year}</p>

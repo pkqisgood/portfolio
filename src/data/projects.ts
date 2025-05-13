@@ -14,10 +14,11 @@ export const projects = [
         id: "pingu",
         name: "Ping-U",
         year: "2023", // Feb 2023 - Oct 2023
-        description: "A warehouse management system",
-        imageSrc: "/images/projects/shandon/summary.png",
+        description: "A custom warehouse management system built for internal warehouse operations. I developed the backend and admin panel used by warehouse staff and managers.",
+        imageSrc: "/images/projects/pingu/summary.png",
         techStack: ['Laravel', 'jQuery', 'SCSS', 'MySQL'],
-        alias: "pingu"
+        alias: "pingu",
+        role: 'Backend & Admin Panel (Full Stack)',
     },
     {
         id: "id",
