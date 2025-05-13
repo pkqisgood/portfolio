@@ -63,23 +63,25 @@ export default function ShandonBirdnestPage() {
                                 Free gift logic (Buy 2 Get 1 Free, etc.)
                             </li>
                         </ul>
-                        <div className="w-full rounded-lg overflow-hidden mt-5">
-                            <Image
-                                src="/images/projects/shandon/buy-free-promotion.png"
-                                alt="Shandon Birdnest"
-                                width={800}
-                                height={500}
-                                className="w-full h-auto rounded-lg"
-                            />
-                        </div>
-                        <div className="w-full rounded-lg overflow-hidden mt-5">
-                            <Image
-                                src="/images/projects/shandon/topup-promotion.png"
-                                alt="Shandon Birdnest"
-                                width={800}
-                                height={500}
-                                className="w-full h-auto rounded-lg"
-                            />
+                        <div className="flex flex-wrap -mx-4 mt-5">
+                            <div className="w-full lg:w-1/2 px-4 rounded-lg overflow-hidden">
+                                <Image
+                                    src="/images/projects/shandon/buy-free-promotion.png"
+                                    alt="Shandon Birdnest"
+                                    width={800}
+                                    height={500}
+                                    className="w-full h-auto rounded-lg"
+                                />
+                            </div>
+                            <div className="w-full lg:w-1/2 px-4 mt-5 lg:mt-0 rounded-lg overflow-hidden">
+                                <Image
+                                    src="/images/projects/shandon/topup-promotion.png"
+                                    alt="Shandon Birdnest"
+                                    width={800}
+                                    height={500}
+                                    className="w-full h-auto rounded-lg"
+                                />
+                            </div>
                         </div>
                     </li>
                     <li className="mt-8">
