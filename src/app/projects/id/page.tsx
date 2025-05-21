@@ -22,7 +22,7 @@ export default function IdPage() {
                 </div>
                 <p className="p1 mt-8">
                     Developed a responsive multi-page company website based on Adobe XD designs. Integrated GSAP animations for interactive transitions and dynamic effects. The site
-                    includes a backend CMS for managing portfolios, products, and other content. Some UI elements were adapted from a purchased HTML template for design consistency
+                    includes a backend CMS for managing portfolios and other content. Some UI elements were adapted from a purchased HTML template for design consistency
                     and efficiency.
                 </p>
                 <div className="w-full rounded-lg overflow-hidden mt-8">
