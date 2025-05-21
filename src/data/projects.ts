@@ -46,10 +46,12 @@ export const projects = [
         id: "azeo",
         name: "Azeo",
         year: "2024",
-        description: "Display website",
+        description: "A corporate website for a talent development company. Built based on Figma design with fully responsive support and a custom Laravel CMS for content management.",
         imageSrc: "/images/projects/azeo/summary.png",
         techStack: ['Laravel', 'jQuery', 'SCSS', 'MySQL'],
-        alias: "azeo"
+        alias: "azeo",
+        role: 'Full stack developer',
+        link: "https://azeo.com.my/en"
     },
     {
         id: "hellosmile",

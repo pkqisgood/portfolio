@@ -15,8 +15,8 @@ export default function ExpoPage() {
             link={project?.link}
         >
             <div className="mt-8">
-                <div className="w-full rounded-lg overflow-hidden">
-                    <video autoPlay muted loop playsInline className="w-full h-auto">
+                <div className="w-full overflow-hidden">
+                    <video autoPlay muted loop playsInline className="w-full h-auto rounded-lg">
                         <source src="/images/projects/upstage/expo.mp4" type="video/mp4" />
                     </video>
                 </div>
@@ -44,6 +44,18 @@ export default function ExpoPage() {
                         Built backend CRUD functionalities for portfolio and other content modules
                     </li>
                 </ul>
+                <div className="flex flex-wrap -mx-4 mt-5">
+                    <div className="w-full lg:w-1/2 px-4 overflow-hidden">
+                        <video autoPlay muted loop playsInline className="w-full h-auto rounded-lg">
+                            <source src="/images/projects/upstage/expo-show.mp4" type="video/mp4" />
+                        </video>
+                    </div>
+                    <div className="w-full lg:w-1/2 px-4 mt-5 lg:mt-0 overflow-hidden">
+                        <video autoPlay muted loop playsInline className="w-full h-auto rounded-lg">
+                            <source src="/images/projects/upstage/expo-swiper.mp4" type="video/mp4" />
+                        </video>
+                    </div>
+                </div>
                 <div className="w-full lg:w-3/4 xl:w-1/2 mx-auto px-4 rounded-lg overflow-hidden">
                     <Image
                         src="/images/projects/upstage/expo-mobile-screens.png"
