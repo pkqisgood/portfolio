@@ -1,7 +1,10 @@
 #projects {
     .project-item {
+        transition: transform 0.3s ease;
+
         &:hover {
             cursor: pointer;
+            transform: scale(1.03);
         }
 
         &:nth-child(4n+1) {

@@ -3,8 +3,32 @@
 import { motion } from 'framer-motion';
 import ProjectItem from '@/components/ProjectItem';
 import { projects } from '@/data/projects';
+import gsap from "gsap";
+import { ScrollTrigger } from "gsap/ScrollTrigger";
+import { useRef } from 'react';
+
+gsap.registerPlugin(ScrollTrigger);
 
 export default function ProjectsPage() {
+    const itemsRef = useRef<(HTMLAnchorElement | null)[]>([]);
+
+    // useEffect(() => {
+    //     gsap.from(itemsRef.current, {
+    //         scrollTrigger: {
+    //             trigger: ".projects-wrapper", // Trigger the scroll animation for the entire wrapper
+    //             start: "top 100%",
+    //             end: "bottom 50%", // Adjust this to your preference
+    //             scrub: true, // Scroll-based animation
+    //             markers: true, // Keep this to debug
+    //         },
+    //         duration: 0.4,
+    //         ease: "circ.out",
+    //         yPercent: 100,
+    //         opacity: 0,
+    //         stagger: 0.1, // Stagger delay between each item
+    //     });
+    // }, [projects]);
+
     return (
         <section id="projects" className="min-h-screen px-8 pt-40 md:pt-50 pb-20 start-nav">
             <div className="container m-auto">
@@ -28,19 +52,20 @@ export default function ProjectsPage() {
                     </motion.span>
                 </motion.h1>
 
-                <motion.div
-                    className="grid md:grid-cols-2 gap-8"
+                <div
+                    className="grid md:grid-cols-2 gap-8 projects-wrapper"
                 >
-                    {projects.map((project) => (
-                        <ProjectItem key={project.id}
+                    {projects.map((project, i) => (
+                        <ProjectItem
+                            key={project.id}
+                            ref={(el) => {
+                                itemsRef.current[i] = el;
+                            }}
                             title={project.name}
-                            description={project.description}
-                            imageSrc={project.imageSrc}
-                            techStack={project.techStack}
-                            alias={project.alias}
+                            {...project}
                         />
                     ))}
-                </motion.div>
+                </div>
             </div>
         </section >
     )

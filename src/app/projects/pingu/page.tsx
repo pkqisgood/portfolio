@@ -164,6 +164,16 @@ export default function PingUPage() {
                 <li>
                     Invoice generation and export per client.
                 </li>
+                <div className="w-full rounded-lg overflow-hidden mt-5">
+                    <Image
+                        src="/images/projects/pingu/price-charging.png"
+                        alt="Price charging"
+                        width={800}
+                        height={500}
+                        className="w-full h-auto rounded-lg"
+                    />
+                    <p className="body-font p1 text-(--secondary-color)">Price charging for each clients ⤴︎</p>
+                </div>
             </ul>
             {/* end admin */}
             <br />

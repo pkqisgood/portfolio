@@ -24,28 +24,34 @@ export const projects = [
         id: "id",
         name: "Upstage - Interior Design",
         year: "2025",
-        description: "Display website",
+        description: "A responsive display website with GSAP animations and backend CMS, built from Adobe XD designs with selected HTML template integration.",
         imageSrc: "/images/projects/upstage/id-summary.png",
         techStack: ['Laravel', 'jQuery', 'SCSS', 'MySQL'],
-        alias: "id"
+        alias: "id",
+        role: 'Full stack developer',
+        link: "https://upstageid.com/id"
     },
     {
         id: "expo",
         name: "Upstage - Expo",
         year: "2025",
-        description: "Display website",
+        description: "A responsive display website with GSAP animations and backend CMS, built from Adobe XD designs.",
         imageSrc: "/images/projects/upstage/expo-summary.png",
         techStack: ['Laravel', 'jQuery', 'SCSS', 'MySQL'],
-        alias: "expo"
+        alias: "expo",
+        role: 'Full stack developer',
+        link: "https://upstageid.com/expo"
     },
     {
         id: "azeo",
         name: "Azeo",
         year: "2024",
-        description: "Display website",
+        description: "A corporate website for a talent development company. Built based on Figma design with fully responsive support and a custom Laravel CMS for content management.",
         imageSrc: "/images/projects/azeo/summary.png",
         techStack: ['Laravel', 'jQuery', 'SCSS', 'MySQL'],
-        alias: "azeo"
+        alias: "azeo",
+        role: 'Full stack developer',
+        link: "https://azeo.com.my/en"
     },
     {
         id: "hellosmile",

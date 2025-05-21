@@ -15,9 +15,12 @@ export default function AboutPage() {
                         animate={{ opacity: 1, y: 0 }}
                         transition={{ duration: 0.8 }}
                     >
-                        I&apos;m PKQ.
+                        I&apos;m&nbsp;
+                        <div className="inline-block relative">
+                            <div>PKQ.</div>
+                            <img src='/images/wave.png' alt="wave" className="img-wave" />
+                        </div>
                     </motion.h1>
-                    <img src='/images/wave.png' alt="wave" className="img-wave" />
                 </div>
                 <div className="content-wrapper">
                     <div className="flex flex-wrap -mx-4">
