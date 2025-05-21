@@ -21,22 +21,26 @@ export const projects = [
         role: 'Backend & Admin Panel (Full Stack)',
     },
     {
-        id: "id",
-        name: "Upstage - Interior Design",
-        year: "2025",
-        description: "Display website",
-        imageSrc: "/images/projects/upstage/id-summary.png",
-        techStack: ['Laravel', 'jQuery', 'SCSS', 'MySQL'],
-        alias: "id"
-    },
-    {
         id: "expo",
         name: "Upstage - Expo",
         year: "2025",
-        description: "Display website",
+        description: "A responsive display website with GSAP animations and backend CMS, built from Adobe XD designs.",
         imageSrc: "/images/projects/upstage/expo-summary.png",
         techStack: ['Laravel', 'jQuery', 'SCSS', 'MySQL'],
-        alias: "expo"
+        alias: "expo",
+        role: 'Full stack developer',
+        link: "https://upstageid.com/expo"
+    },
+    {
+        id: "id",
+        name: "Upstage - Interior Design",
+        year: "2025",
+        description: "A responsive display website with GSAP animations and backend CMS, built from Adobe XD designs with selected HTML template integration.",
+        imageSrc: "/images/projects/upstage/id-summary.png",
+        techStack: ['Laravel', 'jQuery', 'SCSS', 'MySQL'],
+        alias: "id",
+        role: 'Full stack developer',
+        link: "https://upstageid.com/id"
     },
     {
         id: "azeo",
