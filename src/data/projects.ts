@@ -57,10 +57,12 @@ export const projects = [
         id: "hellosmile",
         name: "Hellosmile",
         year: "2024",
-        description: "Display website",
-        imageSrc: "/images/projects/azeo/summary.png",
+        description: "Responsive, multi-language website for a Hong Kong-based non-profit organization, featuring a custom Laravel CMS and interactive frontend elements.",
+        imageSrc: "/images/projects/hellosmile/summary.png",
         techStack: ['Laravel', 'jQuery', 'SCSS', 'MySQL'],
-        alias: "hellosmile"
+        alias: "hellosmile",
+        role: 'Full stack developer',
+        link: "https://www.hellosmilehk.org/en"
     },
     {
         id: "dcoeur",
@@ -70,6 +72,15 @@ export const projects = [
         imageSrc: "/images/projects/dcoeur/summary.png",
         techStack: ['Laravel', 'jQuery', 'SCSS', 'MySQL'],
         alias: "dcoeur"
+    },
+    {
+        id: "sisclub",
+        name: "Sisclub",
+        year: "2023",
+        description: "Revamp display website",
+        imageSrc: "/images/projects/dcoeur/summary.png",
+        techStack: ['Laravel', 'jQuery', 'SCSS', 'MySQL'],
+        alias: "sisclub"
     },
     {
         id: "rits",
