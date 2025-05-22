@@ -4,7 +4,7 @@ import ProjectLayout from "@/components/ProjectLayout";
 import { projects } from "@/data/projects";
 import Image from "next/image";
 
-export default function HellomilePage() {
+export default function HellosmilePage() {
     const project = projects.find(p => p.id == 'hellosmile');
     return (
         <ProjectLayout
