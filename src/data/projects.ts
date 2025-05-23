@@ -3,7 +3,7 @@ export const projects = [
         id: "shandon",
         name: "Shandon Birdnest",
         year: "2022 - 2025",
-        description: "An e-commerce platform for bird's nest products. I developed the full frontend with Laravel backend integration.",
+        description: "Full ecommerce site with multilingual and multicurrency support, subscription-based ordering, rewards, and integrated payment gateway.",
         imageSrc: "/images/projects/shandon/summary.png",
         techStack: ['Laravel', 'jQuery', 'SCSS', 'MySQL', 'SCart'],
         alias: "shandon-birdnest",
@@ -57,27 +57,41 @@ export const projects = [
         id: "hellosmile",
         name: "Hellosmile",
         year: "2024",
-        description: "Display website",
-        imageSrc: "/images/projects/azeo/summary.png",
+        description: "Responsive, multi-language website for a Hong Kong-based non-profit organization, featuring a custom Laravel CMS and interactive frontend elements.",
+        imageSrc: "/images/projects/hellosmile/summary.png",
         techStack: ['Laravel', 'jQuery', 'SCSS', 'MySQL'],
-        alias: "hellosmile"
+        alias: "hellosmile",
+        role: 'Full stack developer',
+        link: "https://www.hellosmilehk.org/en"
     },
     {
         id: "dcoeur",
         name: "Dcoeur",
         year: "2024",
-        description: "Revamp display website",
+        description: "Responsive, multilingual product showcase website with custom CMS and database design, built from Figma designs.",
         imageSrc: "/images/projects/dcoeur/summary.png",
         techStack: ['Laravel', 'jQuery', 'SCSS', 'MySQL'],
-        alias: "dcoeur"
+        alias: "dcoeur",
+        role: 'Full stack developer',
+        link: "https://dcoeurnow.com/"
     },
+    // {
+    //     id: "sisclub",
+    //     name: "Sisclub",
+    //     year: "2023",
+    //     description: "Revamp display website",
+    //     imageSrc: "/images/projects/dcoeur/summary.png",
+    //     techStack: ['Laravel', 'jQuery', 'SCSS', 'MySQL'],
+    //     alias: "sisclub"
+    // },
     {
         id: "rits",
         name: "Rits Website",
         year: "2022",
-        description: "One-page website",
+        description: "A multilingual, responsive one-page company site developed from Adobe XD during my internship.",
         imageSrc: "/images/projects/rits/summary.png",
         techStack: ['Laravel', 'SCSS'],
-        alias: "rits"
+        alias: "rits",
+        role: 'Frontend developer',
     },
 ]

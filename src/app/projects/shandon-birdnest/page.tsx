@@ -15,21 +15,44 @@ export default function ShandonBirdnestPage() {
             link={project?.link}
         >
             <div className="mt-8">
-                <p className="p1">
-                    Shandon Birdnest is a fully customized ecommerce platform designed to streamline birdnest tradingwith custom delivery logic and backend management.
-                    I handled both frontend and backend development, including payment gateway integration.
+                <div className="w-full mx-auto overflow-hidden mt-8">
+                    <video autoPlay muted loop playsInline className="w-full h-auto rounded-lg">
+                        <source src="/images/projects/shandon/video.webm" type="video/webm" />
+                    </video>
+                </div>
+                <p className="p1 mt-8">
+                    Shandon Birdnest is a fully customized ecommerce platform designed to streamline birdnest trading with custom delivery logic and backend management.
+                    I handled both frontend and backend development, including advanced subscription-style ordering, payment gateway integration, and a dynamic rewards and promotions system.
+                    The platform also supports multilingual and multicurrency configurations, with a custom CMS for product and order management.
                 </p>
-                <br />
-                <ul className="p1 mt-1 body-font list-disc">
+                <ul className="p1 mt-1 body-font list-disc mt-8">
                     <li>
                         Developed the user interface for the e-commerce website.
-                        <div className="video-container mt-5">
+                        {/* <div className="video-container mt-5">
                             <video autoPlay muted loop playsInline className="w-full h-auto">
                                 <source src="/images/projects/shandon/video.webm" type="video/webm" />
                             </video>
+                        </div> */}
+                        <div className="w-full lg:w-3/4 mx-auto rounded-lg overflow-hidden">
+                            <Image
+                                src="/images/projects/shandon/home.png"
+                                alt="Shandon Birdnest"
+                                width={2760}
+                                height={1720}
+                                className="w-full h-auto rounded-lg"
+                            />
+                        </div>
+                        <div className="w-full lg:w-3/4 mx-auto rounded-lg overflow-hidden">
+                            <Image
+                                src="/images/projects/shandon/hero-section.png"
+                                alt="Shandon Birdnest"
+                                width={2760}
+                                height={1720}
+                                className="w-full h-auto rounded-lg"
+                            />
                         </div>
                     </li>
-                    <li className="mt-8">
+                    <li className="mt-5">
                         Developed product ordering system with trip-based subscription delivery.
                     </li>
                     <li className="">
@@ -42,7 +65,7 @@ export default function ShandonBirdnestPage() {
                                 Packaging options vary by region
                             </li>
                         </ul>
-                        <div className="w-full rounded-lg overflow-hidden mt-5">
+                        <div className="w-full lg:w-3/4 mx-auto rounded-lg overflow-hidden mt-8">
                             <Image
                                 src="/images/projects/shandon/trip-based-shipping.png"
                                 alt="Shandon Birdnest"
@@ -50,6 +73,7 @@ export default function ShandonBirdnestPage() {
                                 height={500}
                                 className="w-full h-auto rounded-lg"
                             />
+                            <p className="body-font p1 text-(--secondary-color) mt-2">Trip details section ⤴︎</p>
                         </div>
                     </li>
                     <li className="mt-8">
@@ -70,10 +94,11 @@ export default function ShandonBirdnestPage() {
                                 <Image
                                     src="/images/projects/shandon/buy-free-promotion.png"
                                     alt="Shandon Birdnest"
-                                    width={800}
-                                    height={500}
+                                    width={1800}
+                                    height={1200}
                                     className="w-full h-auto rounded-lg"
                                 />
+                                <p className="body-font p1 text-(--secondary-color) mt-2">Cart (Buy X Free X) ⤴︎</p>
                             </div>
                             <div className="w-full lg:w-1/2 px-4 mt-5 lg:mt-0 rounded-lg overflow-hidden">
                                 <Image
@@ -83,6 +108,7 @@ export default function ShandonBirdnestPage() {
                                     height={500}
                                     className="w-full h-auto rounded-lg"
                                 />
+                                <p className="body-font p1 text-(--secondary-color) mt-2">Cart (Topup RMX to get A) ⤴︎</p>
                             </div>
                         </div>
                     </li>
@@ -110,14 +136,88 @@ export default function ShandonBirdnestPage() {
                         className="w-full h-auto rounded-lg"
                     />
                 </div> */}
-                <div className="w-fit m-auto rounded-lg overflow-hidden mt-8">
+                {/* <div className="w-fit m-auto rounded-lg overflow-hidden mt-8">
                     <Image
-                        src="/images/projects/shandon/mobile-home.png"
+                        src="/images/projects/shandon/screens.png"
                         alt="Shandon Birdnest"
                         width={800}
                         height={500}
                         className="w-full h-auto rounded-lg"
                     />
+                </div> */}
+                <div className="w-full lg:w-3/4 mx-auto rounded-lg overflow-hidden mt-8">
+                    <Image
+                        src="/images/projects/shandon/product-list.png"
+                        alt="Shandon Birdnest"
+                        width={2760}
+                        height={1720}
+                        className="w-full h-auto rounded-lg"
+                    />
+                </div>
+                <div className="w-full lg:w-3/4 mx-auto rounded-lg overflow-hidden mt-8">
+                    <Image
+                        src="/images/projects/shandon/product-details-1.png"
+                        alt="Shandon Birdnest"
+                        width={2760}
+                        height={1720}
+                        className="w-full h-auto rounded-lg"
+                    />
+                </div>
+                <div className="flex flex-wrap -mx-4 mt-8">
+                    {/* <div className="w-full lg:w-1/2 mx-auto px-4 rounded-lg overflow-hidden mt-8">
+                        <Image
+                            src="/images/projects/shandon/rewards.png"
+                            alt="shandon"
+                            width={841}
+                            height={1699}
+                            className="w-full h-auto rounded-lg"
+                        />
+                    </div>
+                    <div className="w-full lg:w-1/2 mx-auto px-4 rounded-lg overflow-hidden mt-8">
+                        <Image
+                            src="/images/projects/shandon/product-details-2.png"
+                            alt="shandon"
+                            width={841}
+                            height={1699}
+                            className="w-full h-auto rounded-lg"
+                        />
+                    </div> */}
+                    <div className="w-3/4 md:w-1/2 lg:w-1/3 xl:w-1/4 mx-auto px-4 rounded-lg overflow-hidden mt-8">
+                        <Image
+                            src="/images/projects/shandon/mobile-1.png"
+                            alt="shandon"
+                            width={841}
+                            height={1699}
+                            className="w-full h-auto rounded-lg"
+                        />
+                    </div>
+                    <div className="w-3/4 md:w-1/2 lg:w-1/3 xl:w-1/4 mx-auto px-4 rounded-lg overflow-hidden mt-8">
+                        <Image
+                            src="/images/projects/shandon/mobile-2.png"
+                            alt="shandon"
+                            width={841}
+                            height={1699}
+                            className="w-full h-auto rounded-lg"
+                        />
+                    </div>
+                    <div className="w-3/4 md:w-1/2 lg:w-1/3 xl:w-1/4 mx-auto px-4 rounded-lg overflow-hidden mt-8">
+                        <Image
+                            src="/images/projects/shandon/mobile-3.png"
+                            alt="shandon"
+                            width={841}
+                            height={1699}
+                            className="w-full h-auto rounded-lg"
+                        />
+                    </div>
+                    <div className="w-3/4 md:w-1/2 lg:w-1/3 xl:w-1/4 mx-auto px-4 rounded-lg overflow-hidden mt-8">
+                        <Image
+                            src="/images/projects/shandon/mobile-4.png"
+                            alt="shandon"
+                            width={841}
+                            height={1699}
+                            className="w-full h-auto rounded-lg"
+                        />
+                    </div>
                 </div>
             </div>
         </ProjectLayout>
