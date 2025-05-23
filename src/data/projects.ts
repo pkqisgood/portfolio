@@ -3,7 +3,7 @@ export const projects = [
         id: "shandon",
         name: "Shandon Birdnest",
         year: "2022 - 2025",
-        description: "An e-commerce platform for bird's nest products. I developed the full frontend with Laravel backend integration.",
+        description: "Full ecommerce site with multilingual and multicurrency support, subscription-based ordering, rewards, and integrated payment gateway.",
         imageSrc: "/images/projects/shandon/summary.png",
         techStack: ['Laravel', 'jQuery', 'SCSS', 'MySQL', 'SCart'],
         alias: "shandon-birdnest",
