@@ -28,7 +28,7 @@ export default function DcoeurPage() {
                     A multilingual, responsive product showcase website for a luxury haircare brand. I developed key pages and layout components based on Figma designs,
                     implemented a custom CMS, and designed the backend database structure.
                 </p>
-                <div className="w-full mx-auto rounded-lg overflow-hidden mt-5">
+                <div className="w-full mx-auto rounded-lg overflow-hidden mt-8">
                     <Image
                         src="/images/projects/dcoeur/desktop-screens.png"
                         alt="dcoeur-mobile-screens"

@@ -69,28 +69,29 @@ export const projects = [
         name: "Dcoeur",
         year: "2024",
         description: "Responsive, multilingual product showcase website with custom CMS and database design, built from Figma designs.",
-        imageSrc: "/images/projects/dcoeur/summary.png",
+        imageSrc: "/images/projects/dcoeur/browser-home.png",
         techStack: ['Laravel', 'jQuery', 'SCSS', 'MySQL'],
         alias: "dcoeur",
         role: 'Full stack developer',
         link: "https://dcoeurnow.com/"
     },
-    {
-        id: "sisclub",
-        name: "Sisclub",
-        year: "2023",
-        description: "Revamp display website",
-        imageSrc: "/images/projects/dcoeur/summary.png",
-        techStack: ['Laravel', 'jQuery', 'SCSS', 'MySQL'],
-        alias: "sisclub"
-    },
+    // {
+    //     id: "sisclub",
+    //     name: "Sisclub",
+    //     year: "2023",
+    //     description: "Revamp display website",
+    //     imageSrc: "/images/projects/dcoeur/summary.png",
+    //     techStack: ['Laravel', 'jQuery', 'SCSS', 'MySQL'],
+    //     alias: "sisclub"
+    // },
     {
         id: "rits",
         name: "Rits Website",
         year: "2022",
-        description: "One-page website",
+        description: "A multilingual, responsive one-page company site developed from Adobe XD during my internship.",
         imageSrc: "/images/projects/rits/summary.png",
         techStack: ['Laravel', 'SCSS'],
-        alias: "rits"
+        alias: "rits",
+        role: 'Frontend developer',
     },
 ]
