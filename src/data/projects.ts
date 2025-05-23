@@ -69,7 +69,7 @@ export const projects = [
         name: "Dcoeur",
         year: "2024",
         description: "Responsive, multilingual product showcase website with custom CMS and database design, built from Figma designs.",
-        imageSrc: "/images/projects/dcoeur/browser-home.png",
+        imageSrc: "/images/projects/dcoeur/summary.png",
         techStack: ['Laravel', 'jQuery', 'SCSS', 'MySQL'],
         alias: "dcoeur",
         role: 'Full stack developer',

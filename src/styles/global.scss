@@ -17,6 +17,11 @@
   --green: #DDEB9D;
   --secondary-color: #6A606E;
   --secondary-variant-color: #6A706E;
+  --pink-text: #ffadad;
+  --orange-text: #ffcd91; //#ffd6a5;
+  --blue-text: #c3e4f4;
+  --green-text: #c3d57f;
+  --purple-text: #d2cbf6; //#DEDAF3;
 }
 
 body {
@@ -25,7 +30,8 @@ body {
   color: var(--primary-color);
   height: 100vh;
 
-  p, .body-font {
+  p,
+  .body-font {
     font-family: var(--body-font);
   }
 
