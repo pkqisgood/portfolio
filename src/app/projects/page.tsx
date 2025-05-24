@@ -30,7 +30,7 @@ export default function ProjectsPage() {
     // }, [projects]);
 
     return (
-        <section id="projects" className="min-h-screen px-8 pt-40 md:pt-50 pb-20 start-nav">
+        <section id="projects" className="min-h-screen px-8 pt-35 md:pt-50 pb-20 start-nav">
             <div className="container m-auto">
                 <motion.h1
                     className='text-5xl md:text-7xl lg:text-8xl xl:text-9xl font-medium mb-14 md:mb-20 text-center'
