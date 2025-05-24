@@ -48,8 +48,8 @@ export default function AboutPage() {
                                     <img src='/images/highlight-long.png' alt="circle" className="img-circle -z-1" />
                                 </h4>
                                 <div className="flex flex-wrap gap-x-2 md:gap-x-4 gap-y-1 p1 body-font mt-1 md:mt-2 xxl:mt-3">
-                                    <a className="text-(--pink-text) text-glow" href="...">linkedIn</a> •
-                                    <a className="text-(--orange-text) text-glow" href="...">resume</a> •
+                                    <a className="text-(--pink-text) text-glow" href="...">resume</a> •
+                                    <a className="text-(--orange-text) text-glow" href="...">linkedIn</a> •
                                     <a className="text-(--blue-text) text-glow" href="...">github</a> •
                                     <a className="text-(--green-text) text-glow" href="...">letterboxd</a> •
                                     <a className="text-(--purple-text) text-glow" href="...">books</a>
