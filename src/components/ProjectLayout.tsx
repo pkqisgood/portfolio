@@ -14,7 +14,7 @@ interface ProjectLayoutProps {
 
 export default function ProjectLayout({ title, year, role, techStack, link, children }: ProjectLayoutProps) {
     return (
-        <div className="project-main container m-auto min-h-screen px-8 pt-40 md:pt-50 pb-20 start-nav">
+        <div className="project-main container m-auto min-h-screen px-8 pt-35 md:pt-50 pb-20 start-nav">
             <motion.h1
                 className="project-title text-5xl md:text-7xl lg:text-8xl xl:text-9xl mb-14 md:mb-20 text-center font-bold"
                 initial={{ opacity: 0, y: 40 }}
