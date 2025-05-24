@@ -18,14 +18,14 @@ export default function AboutPage() {
                         I&apos;m&nbsp;
                         <div className="inline-block relative">
                             <div>PKQ.</div>
-                            <img src='/images/wave.png' alt="wave" className="img-wave" />
+                            <img src='/images/wave.png' alt="wave" className="img-wave"/>
                         </div>
                     </motion.h1>
                 </div>
                 <div className="content-wrapper">
                     <div className="flex flex-wrap -mx-4 align-center">
                         <div className="w-full lg:w-1/2 px-4">
-                            <img src='/images/me.png' alt="me" className="img-me w-3/4 md:w-1/2 lg:w-3/4 xl:w-3/5 mx-auto" />
+                            <img src='/images/me.png' alt="me" className="img-me w-3/4 md:w-1/2 lg:w-3/4 xl:w-3/5 mx-auto" loading="lazy"/>
                         </div>
                         <div className="w-full lg:w-1/2 px-4">
                             <h3 className="text-3xl md:text-4xl lg:text-5xl xl:text-6xl font-medium relative mt-8">
@@ -47,9 +47,9 @@ export default function AboutPage() {
                                     <div>elsewhere on the internet:</div>
                                     <img src='/images/highlight-long.png' alt="circle" className="img-circle -z-1" />
                                 </h4>
-                                <div className="flex flex-wrap gap-x-4 gap-y-1 p1 body-font mt-1 md:mt-2 xxl:mt-3">
-                                    <a className="text-(--pink-text) text-glow" href="...">linkedIn</a> •
-                                    <a className="text-(--orange-text) text-glow" href="...">resume</a> •
+                                <div className="flex flex-wrap gap-x-2 md:gap-x-4 gap-y-1 p1 body-font mt-1 md:mt-2 xxl:mt-3">
+                                    <a className="text-(--pink-text) text-glow" href="...">resume</a> •
+                                    <a className="text-(--orange-text) text-glow" href="...">linkedIn</a> •
                                     <a className="text-(--blue-text) text-glow" href="...">github</a> •
                                     <a className="text-(--green-text) text-glow" href="...">letterboxd</a> •
                                     <a className="text-(--purple-text) text-glow" href="...">books</a>

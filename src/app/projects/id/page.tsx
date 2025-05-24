@@ -15,8 +15,8 @@ export default function IdPage() {
             link={project?.link}
         >
             <div className="mt-8">
-                <div className="w-full rounded-lg overflow-hidden">
-                    <video autoPlay muted loop playsInline className="w-full h-auto">
+                <div className="w-full overflow-hidden">
+                    <video autoPlay muted loop playsInline className="w-full h-auto rounded-lg">
                         <source src="/images/projects/upstage/id.mp4" type="video/mp4" />
                     </video>
                 </div>

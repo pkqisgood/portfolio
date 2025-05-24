@@ -28,8 +28,8 @@ export default function AzeoPage() {
                     A corporate website for a talent development company. Built based on Figma design with fully responsive support and a
                     custom Laravel CMS for content management.ging projects and other content.
                 </p>
-                <div className="w-3/4 lg:w-1/2 mx-auto rounded-lg overflow-hidden mt-8">
-                    <video autoPlay muted loop playsInline className="w-full h-auto">
+                <div className="w-3/4 lg:w-1/2 mx-auto overflow-hidden mt-8">
+                    <video autoPlay muted loop playsInline className="w-full h-auto rounded-lg">
                         <source src="/images/projects/azeo/home.mp4" type="video/mp4" />
                     </video>
                 </div>
@@ -47,8 +47,8 @@ export default function AzeoPage() {
                         🔄 <b>Reusable Elements</b>: Integrated and customized selected components from a purchased HTML template to align with the design.
                     </li>
                 </ul>
-                <div className="w-full mx-auto rounded-lg overflow-hidden mt-8">
-                    <video autoPlay muted loop playsInline className="w-full h-auto">
+                <div className="w-full mx-auto overflow-hidden mt-8">
+                    <video autoPlay muted loop playsInline className="w-full h-auto rounded-lg">
                         <source src="/images/projects/azeo/about.mp4" type="video/mp4" />
                     </video>
                 </div>
