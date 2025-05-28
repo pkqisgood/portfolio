@@ -64,7 +64,7 @@ export default function HomePage() {
           <a className="text-(--orange-text) text-glow" href="www.linkedin.com/in/pangkaiqing" target="_blank">linkedIn</a> •
           <a className="text-(--blue-text) text-glow" href="https://github.com/pkqisgood" target='_blank'>github</a> •
           <a className="text-(--green-text) text-glow" href="https://boxd.it/5r9V1" target='_blank'>letterboxd</a> •
-          <a className="text-(--purple-text) text-glow" href="...">books</a>
+          <a className="text-(--purple-text) text-glow" href="#">books</a>
         </div>
       </motion.div>
     </section>
