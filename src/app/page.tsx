@@ -60,10 +60,10 @@ export default function HomePage() {
         transition={{ delay: 0.6, duration: 0.8 }}
       >
         <div className="flex flex-wrap gap-x-2 gap-y-1 p1 body-font justify-center">
-          <a className="text-(--pink-text) text-glow" href="...">resume</a> •
-          <a className="text-(--orange-text) text-glow" href="...">linkedIn</a> •
-          <a className="text-(--blue-text) text-glow" href="...">github</a> •
-          <a className="text-(--green-text) text-glow" href="...">letterboxd</a> •
+          <a className="text-(--pink-text) text-glow" href="/resume.pdf" target='_blank'>resume</a> •
+          <a className="text-(--orange-text) text-glow" href="www.linkedin.com/in/pangkaiqing" target="_blank">linkedIn</a> •
+          <a className="text-(--blue-text) text-glow" href="https://github.com/pkqisgood" target='_blank'>github</a> •
+          <a className="text-(--green-text) text-glow" href="https://boxd.it/5r9V1" target='_blank'>letterboxd</a> •
           <a className="text-(--purple-text) text-glow" href="...">books</a>
         </div>
       </motion.div>
