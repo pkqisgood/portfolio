@@ -29,7 +29,7 @@ export const projects = [
         techStack: ['Laravel', 'jQuery', 'SCSS', 'MySQL'],
         alias: "expo",
         role: 'Full stack developer',
-        link: "https://upstageid.com/expo"
+        link: "https://www.upstageexpo.com/home"
     },
     {
         id: "id",
@@ -40,7 +40,7 @@ export const projects = [
         techStack: ['Laravel', 'jQuery', 'SCSS', 'MySQL'],
         alias: "id",
         role: 'Full stack developer',
-        link: "https://upstageid.com/id"
+        link: "https://upstageid.com/home"
     },
     {
         id: "azeo",
